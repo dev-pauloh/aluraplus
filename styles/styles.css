@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --cor-primaria: #167BF7;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria:  #F9F9F9;
+    --cor-quartenaria: #C0C0C0;
+    --cor-background: #00030C;
+
+    --font-primaria: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-background);
+}
+
+.container {
+    height: 100vh;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__principal {
+    background: url("../assests/Background.png");
+    background-repeat:no-repeat ;
+    background-size: contain;
+}
+
+.apresentacao__principal__conteudo {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 10% 5%;
+}
+
+.apresentacao__principal__conteudo__titulo {
+    font-family: var(--font-primaria);
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.apresentacao__principal__conteudo__imagem {
+    width: 50%;
+}
+
+.apresentacao__principal__conteudo__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.apresentacao__principal__conteudo__links__navegacao {
+    width: 100%;
+    background-color: var(--cor-primaria);
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.botao_secundario {
+    border: 1px var(--cor-secundaria) solid;
+    background-color: transparent;
+}
+
+.apresentacao__principal__conteudo__obs {
+    font-family: var(--font-primaria);
+    color: var(--cor-quartenaria);
+    font-size: 0.75rem;
+}
+
+.apresentacao__secundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
+}
+
+.apresentacao__secundario__imagem {
+    width: 33%;
+}
+
+.apresentacao__secundario__conteudo {
+    width: 33%;
+    display: flexbox;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.apresentacao__secundario__conteudo__titulo {
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.apresentacao__secundario__conteudo__texto {
+    color: var(--cor-terciaria);
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.apresentacao__secundario__conteudo__link {
+    background: var(--cor-primaria);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    font-size: 16px;
+    width: 162.68px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.apresentacao__dispositivos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__dispositivos__titulo {
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.apresentacao__dispositivos__cards {
+    display: flex;
+    justify-content:center;
+    gap: 69px;
+}
+
+.apresentacao__dispositivos__cards__card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.apresentacao__dispositivos__cards__card__texto {
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 41px;
+    padding: 0% 10% 5% 10%;
+}
+
+.rodape__imagem {
+    width: 5%;
+}
+
+.rodape__links {
+    display: flex;
+    gap: 16px;
+}
+
+.rodape__links__navegacao {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.rodape__textos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rodape__textos__texto {
+    color: var(--cor-quartenaria);
+    font-family: var(--font-primaria);
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+}
