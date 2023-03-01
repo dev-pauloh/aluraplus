@@ -76,7 +76,7 @@ body {
     font-size: 1rem;
 }
 
-.botao_secundario {
+.apresentacao__principal__conteudo__links__navegacao--botao_secundario {
     border: 1px var(--cor-secundaria) solid;
     background-color: transparent;
 }
